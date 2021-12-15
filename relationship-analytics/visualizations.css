@@ -1,0 +1,143 @@
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    color: white;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+p{
+  font-family:'Roboto', sans-serif;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.katherine-title{
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 20%;
+}
+
+.app-title{
+  margin-left: 15%;
+}
+
+.donut-chart {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+  }
+      
+  .pie {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .data-path:hover {
+    cursor: pointer;
+  }
+  
+  .donut-text {
+    transition: transform .2s ease-in-out;
+  }
+  .donut-text-hours {
+    -webkit-transform: translateY(-0.5rem);
+    transform: translateY(-0.5rem);
+    opacity: 0;
+    font-size: 2.25em;
+  }
+  .donut-text-category {
+    font-family: 'cronos-pro', sans-serif;
+    -webkit-transform: translateY(0.5rem);
+    transform: translateY(0.5rem);
+    opacity: 0;
+    font-size: 1.25em;
+  }
+  .donut-text--show {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-animation: fadeGraphTextIn 0.5s forwards;
+            animation: fadeGraphTextIn 0.5s forwards;
+  }
+  .donut-text:hover {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  @-webkit-keyframes fadeGraphTextIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeGraphTextIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .graph {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+ }
+  .chart-bar {
+    width: 700px;
+    margin: 40px auto;
+    font-family: sans-serif;
+ }
+
+ .bar:hover{
+  opacity: 0.5;
+}
+
+  .axis path {
+    fill: none;
+    stroke: rgba(152,175,197,0.7);
+ }
+  .axis text {
+    fill: #FFF;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+ }
+  .legend {
+    text-align: center;
+    font-size: 0.85em;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+ }
+  .legend .block {
+    display: inline-block;
+    padding: 8px 20px;
+    padding-bottom: 10px;
+ }
+  .legend .block + .block {
+    margin-left: 4px;
+ }
+  .legend .blue {
+    background-color: #46b9b9;
+ }
+  .legend .purple {
+    background-color: #6f5df6;
+ }
+  .legend .red {
+    background-color: #ff666f;
+ }

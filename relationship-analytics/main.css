@@ -1,0 +1,303 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    color: white;
+    background-image: url('https://i.pinimg.com/474x/e6/70/41/e67041cf46ed7803d6b99416ca2850a2.jpg'); /* images need to be URL */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+}
+  
+.analytics-header{
+    top: -10px;
+    padding: 100px;
+    opacity: 0;
+    margin-bottom: 25%;
+}
+
+.bar-chart-bg{
+  height: -10%;
+  padding: 75px;
+  background: rgb(31,35,60);
+  background: -moz-linear-gradient(top,#1f233c 0%,#434793 100%);
+	 background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#1f233c),color-stop(100%,#434793));
+	 background: -webkit-linear-gradient(top,#1f233c 0%,#434793 100%);
+	 background: -o-linear-gradient(top,#1f233c 0%,#434793 100%);
+	 background: -ms-linear-gradient(top,#1f233c 0%,#434793 100%);
+	 background: linear-gradient(to bottom,#1f233c 0%,#434793 100%);
+  border-radius: 20px;
+}
+
+.bar-chart-iframe{
+  height: 800px;
+  margin-top: -10%;
+  margin-left: 5%;
+  width: 90%;
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+.donut-iframe{
+  height: 500px;
+  margin-left: 15%;
+  width: 90%;
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.shader-iframe{
+  width: 30%;
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.network-iframe{
+  margin-left: 35%;
+  width: 30%;
+  -ms-transform: scale(4);
+  -moz-transform: scale(4);
+  -o-transform: scale(4);
+  -webkit-transform: scale(4);
+  transform: scale(4);
+}
+
+iframe{
+  margin-left: 35%;
+  height: 300px;
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.analytics-blurb{
+  padding: 250px;
+  text-align: center;
+  opacity: 0;
+  margin-bottom: 10%;
+}
+
+.top-analytics-blurb{
+  padding: 250px;
+  text-align: center;
+  opacity: 0;
+  margin-bottom: 20%;
+}
+
+.image-header{
+  padding: 100px;
+  opacity: 0;
+  margin-bottom: 20%;
+}
+
+.next{
+  position: absolute;
+  margin-left: 20%;
+}
+
+.next-hashtag-1{
+  position: absolute;
+  margin-left: 15%;
+}
+
+.next-hashtag-2{
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 28%;
+}
+
+.next-hashtag-3{
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 32%;
+}
+
+.next-poll{
+  position: absolute;
+  margin-top: -13%;
+  margin-left: 12%;
+}
+
+.next-question{
+  position: absolute;
+  margin-left: 32%;
+  top: 29%;
+}
+
+.next-slider{
+  position: absolute;
+  margin-left: 55%;
+  top: 30%;
+}
+
+.social-blurb{
+  padding: 100px;
+  text-align: center;
+  opacity: 0;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.donut-container{
+  padding: 150px;
+  margin-bottom: 15%;
+}
+
+.data-blurb{
+  text-align: center;
+  opacity: 0;
+}
+
+.network-container{
+  margin-top: 10%;
+  padding: 150px;
+  margin-bottom: 25%;
+}
+
+.network-blurb{
+  text-align: center;
+  margin-bottom: 25%;
+  opacity: 0;
+}
+
+.screen-blurb{
+  text-align: center;
+  margin-bottom: 10%;
+  opacity: 0;
+}
+
+.bar-container{
+  margin-top: 10%;
+  padding: 150px;
+}
+
+.active, .collapsible:hover {
+    color: #D04623FF;
+}
+
+.content {
+    padding: 18px;
+    padding-left: 20%;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-connect{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.instagram-connect{
+  height: 700px;
+  width: 350px;
+}
+
+.instagram-connect:hover{
+  content:url("img/instagram-delete-2.png");
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+.next-ig{
+  margin-top: 10%;
+  height: 25%;
+  width: 25%;
+}
+
+.messages-connect{
+  height: 700px;
+  width: 350px;
+}
+
+.messages-connect:hover{
+  content:url("img/message-delete-2.png");
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0.75;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0.75;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0.75;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0.75;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.social-container{
+  padding: 200px;
+  text-align: center;
+  margin-bottom: 20%;
+  opacity: 0;
+}
+
+.screen-container{
+  padding: 200px;
+  text-align: center;
+  margin-top: -15%;
+  margin-bottom: 20%;
+}
+
+
